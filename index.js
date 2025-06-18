@@ -15,7 +15,7 @@ const SetYear = (Element) => {
         }
     }
 
-    const Year = new Date()['getFullYear']()['toString']();
+    const Year = new this['Date']()['getFullYear']()['toString']();
 
     Element['appendChild'](document['createTextNode'](Year));
 }
