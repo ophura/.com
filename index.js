@@ -1,7 +1,8 @@
 'use strict';
 
-/** @param {Element} Element */
-const SetYear = (Element) => {
+document['addEventListener']('DOMContentLoaded', () => {
+
+    const Element = document['getElementById']('Year');
 
     if (!Element) return;
 
@@ -18,9 +19,7 @@ const SetYear = (Element) => {
     const Year = new this['Date']()['getFullYear']()['toString']();
 
     Element['appendChild'](document['createTextNode'](Year));
-}
-
-document['addEventListener']('DOMContentLoaded', () => SetYear(document['getElementById']('Year')));
+});
 
 const ThisWebsite = new this['URL']('https://ophura.com');
 const VRChatAccount = new this['URL']('https://vrchat.com/home/user/usr_2b4e288f-a8cb-48bc-afe9-72be97e83842');
