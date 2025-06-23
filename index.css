@@ -18,16 +18,6 @@ h6 {
     font-weight: normal;
 }
 
-@supports (content: 🄯)
-{
-    span#Copyleft {
-        content: 🄯
-    }
-}
-
-@supports not (content: 🄯)
-{
-    span#Copyleft {
-        content: (ɔ)
-    }
+span#Copyleft::after {
+    content: '🄯' / '(ɔ)';
 }
