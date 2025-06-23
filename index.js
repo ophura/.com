@@ -33,5 +33,3 @@ console['group']('related links');
 console['log']([ThisWebsite['href'], VRChatAccount['href'], GitHubAccount['href']]['join']('\n'));
 
 console['groupEnd']();
-
-console.log(Copyleft.offsetWidth);
