@@ -5,6 +5,10 @@ body {
     font-size: 1.69vw;
 }
 
+hr {
+    border-style: unset;
+}
+
 h1,
 h2,
 h3,
