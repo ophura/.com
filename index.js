@@ -10,7 +10,7 @@ document['addEventListener']('DOMContentLoaded', () => {
 
         for (const Node of Element['childNodes']) {
 
-            if (Node['nodeType'] !== Node['TEXT_NODE']) {
+            if (Node['nodeType'] === Node['TEXT_NODE']) {
                 
                 Element['removeChild'](Node);
             }
