@@ -2,7 +2,7 @@
 
 document['addEventListener']('DOMContentLoaded', () => {
 
-    const Element = document['getElementById']('Year');
+    const Element = document['getElementById']('year');
 
     if (!Element) return;
 

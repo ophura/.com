@@ -5,10 +5,6 @@ body {
     font-size: 1.69vw;
 }
 
-hr {
-    border-style: solid;
-}
-
 h1,
 h2,
 h3,
@@ -16,4 +12,13 @@ h4,
 h5,
 h6 {
     font-weight: normal;
+}
+
+hr {
+    border-style: solid;
+}
+
+.flip {
+    display: inline-block;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
