@@ -15,6 +15,6 @@ const GitHubAccount = 'https://github.com/8chan-co/ophura.com';
 
 console.group('related links');
 
-console.log([location.href, VRChatAccount.href, GitHubAccount.href].join('\n'));
+console.log([location.href, VRChatAccount, GitHubAccount].join('\n'));
 
 console.groupEnd();
