@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const VRChatAccount = 'https://vrchat.com/home/user/usr_2b4e288f-a8cb-48bc-afe9-72be97e83842';
 
-const GitHubAccount = 'https://github.com/8chan-co/ophura.com';
+const GitHubRepository = 'https://github.com/8chan-co/ophura.com';
 
 console.group('related links');
 
-console.log([location.href, VRChatAccount, GitHubAccount].join('\n'));
+console.log([location.href, VRChatAccount, GitHubRepository].join('\n'));
 
 console.groupEnd();
