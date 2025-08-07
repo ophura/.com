@@ -4,7 +4,9 @@ const YearOnly = Intl.DateTimeFormat(undefined, { year: 'numeric' });
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    year.replaceChild(year.firstChild, document.createTextNode(YearOnly.format(Date.now())));
+    year.removeChild(year.firstChild);
+
+    year.appendChild(document.createTextNode(YearOnly.format(Date.now())));
     
 });
 
