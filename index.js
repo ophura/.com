@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const VRChatAccount = 'https://vrchat.com/home/user/usr_2b4e288f-a8cb-48bc-afe9-72be97e83842';
 
-const GitHubRepository = 'https://github.com/ophura/ophura.com';
+const GitHubRepository = 'https://github.com/ophura/.com';
 
 console.group('related links');
 
