@@ -1,5 +1,5 @@
 'use strict';
-
+return;
 const YearOnly = Intl.DateTimeFormat(undefined, { year: 'numeric' });
 
 document.addEventListener('DOMContentLoaded', () => {
