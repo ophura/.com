@@ -32,3 +32,11 @@ hr {
     display: inline-block;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
+a {
+    color: rgb(170, 170, 170);
+}
+
+a:hover {
+    color: white;
+}
